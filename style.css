@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: C8C6C6;
+}
+
+#img-div {
+  padding: 2.5% 10% 2.5% 10%;
+  background-color: F7F6F2;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  margin: auto; 
+}
+
+#img-caption {
+  padding-top: 10px;
+}
+
+.center, p {
+  text-align: center;
+}
+
+ul {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+li {
+  margin: 15px;
+}
+
+@media (max-width: 480px) {
+ ul {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+  li {
+  margin: 0;
+  }
+}
